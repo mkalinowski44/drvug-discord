@@ -1,7 +1,48 @@
-/* *
- * @name DRVUG DISCORD
- * @author DRVUG
- * @version 0.0.1
- * @description Blood for Discord.
- * @source https://github.com/mkalinowski44/drvug-discord
-*/
+:root {
+  --theme-version: 'v0.0.1';
+}
+
+.wordmarkWindows-2dq6rw {
+  display: flex;
+}
+.wordmarkWindows-2dq6rw:before {
+  content: "DRVUG";
+  display: block;
+  color: var(--bg-overlay-1,var(--background-secondary-alt));
+  font-size: 10px;
+  font-weight: 800;
+  position: relative;
+  top: 1px;
+  height: 8px;
+  padding: 3px;
+  border-radius: 4px;
+  background: var(--text-muted);
+}
+.wordmarkWindows-2dq6rw:after {
+  content: var(--theme-version);
+  display: block;
+  color: var(--text-muted);
+  font-size: 10px;
+  font-weight: 800;
+  position: relative;
+  top: 1px;
+  height: 8px;
+  padding: 3px;
+}
+
+#vc-membercount {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 8px !important;
+  margin-right: -8px;
+}
+
+#vc-membercount > div {
+  background: var(--bg-overlay-1,var(--background-secondary-alt));
+  padding: 8px;
+  border-radius: 6px;
+}
+
+#vc-membercount > div > span {
+  margin-left: 0 !important;
+}
