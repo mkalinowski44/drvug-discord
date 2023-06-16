@@ -1,5 +1,5 @@
 :root {
-  --theme-version: 'v0.0.2';
+  --theme-version: 'v0.0.3';
 }
 
 /* Colors */
@@ -19,9 +19,9 @@
   --brand-400-hsl: var(--theme-accent) calc(var(--saturation-factor, 1)*96.1%) calc(var(--lightness-factor)*61.8%);
   --brand-430-hsl: var(--theme-accent) calc(var(--saturation-factor, 1)*95.7%) calc(var(--lightness-factor)*59.8%);
   --brand-460-hsl: var(--theme-accent) calc(var(--saturation-factor, 1)*95.5%) calc(var(--lightness-factor)*57.5%);
-  --brand-500-hsl: var(--theme-accent) calc(var(--saturation-factor, 1)*95.6%) calc(var(--lightness-factor)*54.7%);
+  --brand-500-hsl: var(--theme-accent) calc(var(--saturation-factor, 1)*95.6%) calc(var(--lightness-factor)*50.7%);
   --brand-530-hsl: var(--theme-accent) calc(var(--saturation-factor, 1)*76.7%) calc(var(--lightness-factor)*48.8%);
-  --brand-560-hsl: var(--theme-accent) calc(var(--saturation-factor, 1)*81.4%) calc(var(--lightness-factor)*42.4%);
+  --brand-560-hsl: var(--theme-accent) calc(var(--saturation-factor, 1)*81.4%) calc(var(--lightness-factor)*45.4%);
   --brand-600-hsl: var(--theme-accent) calc(var(--saturation-factor, 1)*76.7%) calc(var(--lightness-factor)*34.1%);
   --brand-630-hsl: var(--theme-accent) calc(var(--saturation-factor, 1)*76.7%) calc(var(--lightness-factor)*28.2%);
   --brand-660-hsl: var(--theme-accent) calc(var(--saturation-factor, 1)*77.1%) calc(var(--lightness-factor)*23.3%);
