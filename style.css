@@ -1,13 +1,13 @@
 /* *
  * @name DRVUG DISCORD
  * @author DRVUG
- * @version 0.1.5
+ * @version 0.1.6
  * @description Blood for Discord.
  * @source https://github.com/mkalinowski44/drvug-discord
 */
 
 :root {
-  --theme-version: 'v0.1.5';
+  --theme-version: 'v0.1.6';
 }
 
 /* Colors */
@@ -281,8 +281,8 @@
     background: transparent;
 }
 
-.container-2o3qEW .container-q97qHp:nth-child(2) {
-    margin-top: 50px;
+.members-3WRCEx > .content-yjf30S {
+  padding-top: 50px !important;
 }
 
 .embedFull-1HGV2S,
