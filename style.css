@@ -1,13 +1,13 @@
 /* *
  * @name DRVUG DISCORD
  * @author DRVUG
- * @version 0.1.6
+ * @version 0.1.7
  * @description Blood for Discord.
  * @source https://github.com/mkalinowski44/drvug-discord
 */
 
 :root {
-  --theme-version: 'v0.1.6';
+  --theme-version: 'v0.1.7';
 }
 
 /* Colors */
@@ -79,6 +79,10 @@
   --chat-background: hsla(0, 80%, 4%);
   --scrollbar-thumb-color: hsla(0, 90%, 10%);
   --sidebar-scrollbar-thumb-color: hsla(0, 90%, 20%);
+}
+
+.theme-dark .scrollerContainer-y16Rs9 {
+  background-color: var(--home-background);
 }
 
 .theme-dark .container-2IKOsH, .theme-dark .header-3xB4vB {
